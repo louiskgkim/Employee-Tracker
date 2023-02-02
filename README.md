@@ -27,7 +27,7 @@ npm i inquirer@8.2.4
 ```
 
 ```
-MySQL
+MySQL2
 ```
 
 ## Usage
