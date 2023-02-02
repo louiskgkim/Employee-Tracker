@@ -9,7 +9,7 @@ db.connect(err => {
 });
 
 const employeeTracker = function () {
-  inquirer.createPromptModule([{
+  inquirer.prompt([{
     type: "list",
     name: "prompt",
     // using same message and choices from mock up video provided
