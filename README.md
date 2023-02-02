@@ -2,10 +2,9 @@
 
 ## Description
 
-Node.js application that generates a Team Profile as a HTML webpage for the user. The webpage will display a summary of each person added to the team.
+Created an interface so that it is easy for non-developers to easily view and interact with information within a database. These interfaces are called content management systems (CMS). My assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-Testing is also done to make sure the code is maintainable.
-
+Note this application can be started in the command line by running 'node.index.js' after all files are installed.
 
 ## Table of Contents
 
