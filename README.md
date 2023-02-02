@@ -19,15 +19,15 @@ Testing is also done to make sure the code is maintainable.
 Some files will be needed in order for this generator to operate.
 
 ```
-Node.js version 16.16.0: https://nodejs.org/en/blog/release/v16.16.0/
+Node.js@16.16.0: https://nodejs.org/en/blog/release/v16.16.0/
 ```
 
 ```
-npm i inquirer@8.2.4
+npm i inquirer @8.2.4
 ```
 
 ```
-MySQL2
+MySQL2 @3.1.0: https://www.npmjs.com/package/mysql2
 ```
 
 ## Usage

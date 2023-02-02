@@ -23,6 +23,6 @@
   "homepage": "https://github.com/louiskgkim/Employee-Tracker",
   "dependencies": {
     "inquirer": "^8.2.4",
-    "mysql2": "^8.0.32"
+    "mysql2": "^3.1.0"
   }
 }
