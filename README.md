@@ -26,8 +26,16 @@ Node.js version 16.16.0: https://nodejs.org/en/blog/release/v16.16.0/
 npm i inquirer@8.2.4
 ```
 
+```
+MySQL
+```
+
 ## Usage
-Use inquirer from your command line to answer questions about your team so that a team profile can be generated. You can also take a look at the demo video further below.
+1. Clone the repository
+2. Open terminal in the right file path
+3. Run 'npm install' or 'npm i' to download the packages needed
+4. Run the command node index.js to run the software
+5. Check command prompt
 
 
 ## Screenshots
@@ -48,7 +56,8 @@ No collaborators for this project. But some references are listed below:
 
 - [Node Installation Guide](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs/)
 - [Inquirer Package](https://www.npmjs.com/package/inquirer/v/8.2.4/)
-
+- [MySQL2 Download Guide](https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide)
+- [console.table Package](https://www.npmjs.com/package/console.table)
 
 ## License
 
