@@ -252,5 +252,6 @@ const employeeTracker = function () {
     } else if (answers.prompt === 'Quit') {
       db.end();
       console.log("Bye!");
+    }
   })
 };
