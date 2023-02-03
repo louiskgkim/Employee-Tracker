@@ -43,12 +43,12 @@ MySQL2 @3.1.0: https://www.npmjs.com/package/mysql2
 
 ### Repository:
 ```
-
+https://github.com/louiskgkim/Employee-Tracker
 ```
 
 ### Demo Video:
 
-- [Demo Video]()
+- [Demo Video](https://drive.google.com/file/d/1cXDCsmZ9eFpa0clmrpox4qSVkb5vfU-B/view?usp=sharing)
 
 ## Credits
 
