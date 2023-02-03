@@ -96,8 +96,8 @@ const employeeTracker = function () {
             name: 'department',
             message: 'Which department does the role belong to?',
             choices: () => {
-              const array = [];
-              for (const i = 0; i < result.length; i++) {
+              var array = [];
+              for (var i = 0; i < result.length; i++) {
                 array.push(result[i].name);
               }
               return array;
@@ -105,9 +105,9 @@ const employeeTracker = function () {
           }
         ]).then((answers) => {
           // Comparing the result and storing it into the variable
-          for (const i = 0; i < result.length; i++) {
+          for (var i = 0; i < result.length; i++) {
             if (result[i].name === answers.department) {
-              const department = result[i];
+              var department = result[i];
             }
           }
 
@@ -158,11 +158,11 @@ const employeeTracker = function () {
             name: 'role',
             message: 'What is the employees role?',
             choices: () => {
-              const array = [];
-              for (const i = 0; i < result.length; i++) {
+              var array = [];
+              for (var i = 0; i < result.length; i++) {
                 array.push(result[i].title);
               }
-              const newArray = [...new Set(array)];
+              var newArray = [...new Set(array)];
               return newArray;
             }
           },
@@ -170,7 +170,7 @@ const employeeTracker = function () {
             // add employee manager
             type: 'input',
             name: 'manager',
-            message: 'Who is the employees manager?',
+            message: 'What is the employee managers id?',
             validate: managerInput => {
               if (managerInput) {
                 return true;
@@ -182,9 +182,9 @@ const employeeTracker = function () {
           }
         ]).then((answers) => {
           // compare the result and storing it into the variable
-          for (const i = 0; i < result.length; i++) {
+          for (var i = 0; i < result.length; i++) {
             if (result[i].title === answers.role) {
-              const role = result[i];
+              var role = result[i];
             }
           }
 
@@ -207,11 +207,11 @@ const employeeTracker = function () {
             name: 'employee',
             message: 'Which employees role do you want to update?',
             choices: () => {
-              const array = [];
-              for (const i = 0; i < result.length; i++) {
+              var array = [];
+              for (var i = 0; i < result.length; i++) {
                 array.push(result[i].last_name);
               }
-              const employeeArray = [...new Set(array)];
+              var employeeArray = [...new Set(array)];
               return employeeArray;
             }
           },
@@ -221,24 +221,24 @@ const employeeTracker = function () {
             name: 'role',
             message: 'What is their new role?',
             choices: () => {
-              const array = [];
-              for (const i = 0; i < result.length; i++) {
+              var array = [];
+              for (var i = 0; i < result.length; i++) {
                 array.push(result[i].title);
               }
-              const newArray = [...new Set(array)];
+              var newArray = [...new Set(array)];
               return newArray;
             }
           }
         ]).then((answers) => {
-          for (const i = 0; i < result.length; i++) {
+          for (var i = 0; i < result.length; i++) {
             if (result[i].last_name === answers.employee) {
-              const name = result[i];
+              var name = result[i];
             }
           }
 
-          for (const i = 0; i < result.length; i++) {
+          for (var i = 0; i < result.length; i++) {
             if (result[i].title === answers.role) {
-              const role = result[i];
+              var role = result[i];
             }
           }
 
