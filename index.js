@@ -175,7 +175,7 @@ const employeeTracker = function () {
               if (managerInput) {
                 return true;
               } else {
-                console.log('Please add a manager.');
+                console.log('Please add managers ID.');
                 return false;
               }
             }
